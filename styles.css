@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "Till-Normal";
-  src: url("https://res.cloudinary.com/ddqo2y6zh/raw/upload/v1622309781/visrel007-lfw/Till-Normal.woff"); /* IE9 Compat Modes */
-  src: url("https://res.cloudinary.com/ddqo2y6zh/raw/upload/v1622309781/visrel007-lfw/Till-Normal.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("https://res.cloudinary.com/ddqo2y6zh/raw/upload/v1622309781/visrel007-lfw/Till-Normal.woff")
-      format("woff"); /* Pretty Modern Browsers */
-}
-
 :root {
   --tiny: 24rem; /* 384px; */
   --small: 50rem; /* 800px; */
@@ -90,9 +80,15 @@ p.ellipsis {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
+a {
+  text-decoration: none;
+}
 button {
+  display: inline-block;
   height: 2rem;
+  text-align: center;
+  word-wrap: none;
+  margin-bottom: 0.25rem;
   padding: 0 2rem;
   border: none;
   font-size: 0.7rem;
