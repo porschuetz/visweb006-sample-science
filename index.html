@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sample Science</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <aside class="font-info">
+      Sign up for next month's participants list or support us on Patreon!
+      <!-- <span class="info"></span> / <span class="info"></span> /
+      <span class="info"></span> -->
+    </aside>
+    <main>
+      <header>
+        <!-- <h1>Sample Science</h1> -->
+        <img
+          src="https://i1.sndcdn.com/avatars-000158142789-nnngl0-t500x500.jpg"
+          alt="Logo"
+        />
+        <h3>Sample Science is a monthly event for beatmakers & producers.</h3>
+        <script>
+          function callToAction() {
+            const action = prompt(
+              "How is your favorite guest artist?",
+              "James Brown"
+            );
+            document.querySelector("h1").innerText = action;
+            // alert(action);
+          }
+        </script>
+        <button onclick="callToAction()">
+          R.S.V.P. to our next event
+        </button>
+      </header>
+      <section>
+        <div class="section-inner">
+          <h3>The rules are simple</h3>
+          <ul>
+            <li>Anyone who want's to create a beat can participate</li>
+            <li>You all get one sample to work with</li>
+            <li>You have 2 hours of time to finish your beat and present it to the crowd</li>
+            <li>Beats will be uploaded to our Soundcloud profile afterwards</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="section-inner">
+          <h3>Are you a beatmaker / producer?</h3>
+          <p>
+              Professional or beginner you are all very welcome to join. Bring your equipment of choice, notebook, mpc, instruments and what not. Don´t forget to bring your headphones!
+              It's not a competition, nobody will be judged! So even if you are a beginner, come by and participate, it's just for the love of music!</h3>
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="section-inner">
+          <h2>Past Editions</h2>
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1237540585&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Layout &copy; Mandy Mozart
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
